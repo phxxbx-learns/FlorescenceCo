@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Florescence & Co.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Great+Vibes&family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="logo">
+            <img src="pics/logo.png" alt="F&Co. Logo">
+            <div>
+                <h1>Florescence & Co.</h1>
+                <p>Elegance & Beauty in a Single Bouquet</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sidebar Toggle -->
+    <div class="sidebar-toggle" onclick="toggleSidebar()">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#best-sellers">Best Sellers</a></li>
+            <li><a href="#seasonal-flowers">Seasonal Flowers</a></li>
+            <li><a href="#fresh-flowers">Fresh Flowers</a></li>
+            <li><a href="#synthetic-flowers">Synthetic Flowers</a></li>
+            <li><a href="#events-styling">Events Styling</a></li>
+            <li><a href="#check-out">Check Out</a></li>
+            <li><a href="#about-us">About Us</a></li>
+        </ul>
+    </div>
+
+    <!-- Search Bar and Icons -->
+    <div class="search-icons">
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+        <div class="icons">
+            <i class="fas fa-shopping-cart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-question-circle"></i>
+        </div>
+    </div>
+
+        <!-- Main Content -->
+        <section id="home" class="section">
+            <section class="home-section">
+                <h2>Home</h2>
+                <p>At Florescence & Co., we believe that flowers are more than just a gift —
+                    they are a powerful way to express love, gratitude, joy, and even comfort. 
+                    Every bloom tells a story, and every arrangement is crafted with care to reflect 
+                    the emotions behind each moment. From vibrant bouquets that light up someone’s day, 
+                    to timeless centerpieces that elevate weddings and special events, our floral designs 
+                    are made to leave lasting impressions. We also offer delicate touches of nature to 
+                    enhance your living spaces, making everyday life feel more beautiful and inspired. 
+                    Whether you're celebrating a milestone, surprising a loved one, or simply bringing warmth 
+                    to your surroundings, Florescence & Co. is here to bring your floral vision to life.</p>
+                <div class="image-layout">
+                    <div class="big-image">
+                        <img src="pics/h1.webp" alt="Big Image">
+                    </div>
+        
+                    <div class="small-images">
+                        <div class="small-image">
+                            <img src="pics/h9.webp" alt="Small Image 1">
+                        </div>
+                        <div class="small-image">
+                            <img src="pics/h3.webp" alt="Small Image 2">
+                        </div>
+                        <div class="small-image">
+                            <img src="pics/h4.webp" alt="Small Image 3">
+                        </div>
+                        <div class="small-image">
+                            <img src="pics/h6.webp" alt="Small Image 4">
+                        </div>
+                        <div class="small-image">
+                            <img src="pics/h2.webp" alt="Small Image 5">
+                        </div>
+                        <div class="small-image">
+                            <img src="pics/h7.webp" alt="Small Image 6">
+                        </div>
+                        <div class="small-image">
+                            <img src="pics/h8.webp" alt="Small Image 7">
+                        </div>
+                        <div class="small-image">
+                            <img src="pics/h5.webp" alt="Small Image 8">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Best Sellers Section -->
+        <section id="best-sellers" class="section">
+            <h2>Best Sellers</h2>
+            <div class="images">
+                <div class="image-container">
+                    <img src="pics/b1.webp" alt="Box 1">
+                    <div class="label">Candy Pink</div>
+                    <div class="price">9,999.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="pics/b2.webp" alt="Box 2">
+                    <div class="label">Bright but Light</div>
+                    <div class="price">2,850.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="pics/b3.webp" alt="Box 3">
+                    <div class="label">Berry Cheesecake</div>
+                    <div class="price">6,880.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="pics/b4.webp" alt="Box 4">
+                    <div class="label">Dream Land</div>
+                    <div class="price">3,990.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="pics/b5.webp" alt="Box 5">
+                    <div class="label">Pinkish Belle</div>
+                    <div class="price">5,390.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="pics/c8.webp" alt="Box 4">
+                    <div class="label">Graceful Blooms</div>
+                    <div class="price">10,990.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seasonal Flowers -->
+        <section class="section" id="seasonal-flowers">
+            <h2>Seasonal Flowers</h2>
+            <div class="season-grid">
+                <a href="spring.html" class="season-item">
+                    <img src="pics/spring1.webp" alt="Spring Flowers">
+                    <div class="season-label">Spring Flowers &raquo;</div>
+                </a>
+                <a href="summer.html" class="season-item">
+                    <img src="pics/summer1.jpg" alt="Summer Flowers">
+                    <div class="season-label">Summer Flowers &raquo;</div>
+                </a>
+                <a href="fall.html" class="season-item">
+                    <img src="pics/fall.jpg" alt="Fall Flowers">
+                    <div class="season-label">Fall Flowers &raquo;</div>
+                </a>
+                <a href="winter.html" class="season-item">
+                    <img src="pics/winter.jpg" alt="Winter Flowers">
+                    <div class="season-label">Winter Flowers &raquo;</div>
+                </a>
+            </div>
+        </section>        
+
+
+        <!-- Fresh Flowers Section Section -->
+        <section id="fresh-flowers" class="section">
+            <h2>Fresh Flowers</h2>
+            <div class="images">
+                <div class="image-container">
+                    <img src="pics/f1.jpg" alt="Fresh 1">
+                    <div class="label">Blooms Blush</div>
+                    <div class="price">15,999.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="pics/f2.jpg" alt="Fresh 2">
+                    <div class="label">Blissful Roses</div>
+                    <div class="price">6,670.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="pics/ff3.webp" alt="Fresh 3">
+                    <div class="label">Rosette</div>
+                    <div class="price">3,490.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="pics/f4.jpg" alt="Fresh 4">
+                    <div class="label">Blooming Elegance</div>
+                    <div class="price">7,990.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="pics/f5.webp" alt="Fresh 5">
+                    <div class="label">Razzle Dazzle</div>
+                    <div class="price">6,999.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="pics/f6.webp" alt="Fresh 6">
+                    <div class="label">Beauté</div>
+                    <div class="price">4,290.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="pics/f7.webp" alt="Fresh 7">
+                    <div class="label">Think Pink</div>
+                    <div class="price">8,350.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="pics/f8.webp" alt="Fresh 8">
+                    <div class="label">Romantic Red</div>
+                    <div class="price">9,850.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="pics/f9.webp" alt="Fresh 9">
+                    <div class="label">Sweetzel</div>
+                    <div class="price">7,850.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="pics/f10.webp" alt="Fresh 10">
+                    <div class="label">Placid Blue</div>
+                    <div class="price">7,199.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="pics/c2.webp" alt="Fresh 9">
+                    <div class="label">Lavender Kiss</div>
+                    <div class="price">5,880.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="pics/c3.webp" alt="Fresh 10">
+                    <div class="label">Pink Ecuadorian</div>
+                    <div class="price">14,999.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Synthetic Flowers Section -->
+        <section id="synthetic-flowers" class="section">
+            <h2>Synthetic Flowers</h2>
+            <div class="images">
+                <div class="image-container">
+                    <img src="pics/s1.jpg" alt="Synthetic 1">
+                    <div class="label">Eterna</div>
+                    <div class="price">349.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="pics/ff2.jpg" alt="Synthetic 2">
+                    <div class="label">Silken</div>
+                    <div class="price">299.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="pics/s2.jpg" alt="Synthetic 3">
+                    <div class="label">Velvessa</div>
+                    <div class="price">349.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="pics/s7.jpg" alt="Synthetic 4">
+                    <div class="label">Bloomora</div>
+                    <div class="price">199.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="pics/s3.jpg" alt="Synthetic 5">
+                    <div class="label">Florisse</div>
+                    <div class="price">399.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="pics/s8.jpg" alt="Synthetic 6">
+                    <div class="label">Petalyn</div>
+                    <div class="price">449.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="pics/s4.jpg" alt="Synthetic 7">
+                    <div class="label">Lirien</div>
+                    <div class="price">149.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="pics/s9.jpg" alt="Synthetic 8">
+                    <div class="label">Fauxa</div>
+                    <div class="price">499.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="pics/s5.jpg" alt="Synthetic 9">
+                    <div class="label">Blossia</div>
+                    <div class="price">349.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="pics/c7.jpg" alt="Synthetic 10">
+                    <div class="label">Sunny</div>
+                    <div class="price">399.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="pics/c4.jpg" alt="Synthetic 9">
+                    <div class="label">Blessye</div>
+                    <div class="price">449.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="pics/c5.jpg" alt="Synthetic 10">
+                    <div class="label">Florin</div>
+                    <div class="price">249.00 PHP</div>
+                    <div class="action-row">
+                        <div class="icons-only">
+                            <i class="fas fa-shopping-cart" title="Add to Cart"></i>
+                            <i class="fas fa-heart" title="Add to Favorites"></i>
+                        </div>
+                        <button class="buy-now">Buy Now!</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Events Styling -->
+        <section class="section">
+            <h2>Events Styling</h2>
+            <section id="events-styling" class="events-styling">
+                <div class="top-section">
+                    <div class="big-image">
+                        <img src="pics/e8.jpg">
+                    </div>
+                    <div class="details">
+                        <h1>Celebrate Your Love</h1>
+                        <p>Celebrate in style with Extra Ordinary Events by <strong>Florescence & Co.</strong>!
+                            With a heart and passion for planning and creating unforgettable moments,
+                            we specialize in designing and coordinating events that capture the essence
+                            of your unique love story. From bridal showers and weddings to birthday parties,
+                            and all special occasions, we are dedicated to turning every event into a truly memorable experience.</p>
+                        <p>At <strong>Florescence & Co.</strong>, we believe that every celebration deserves a personal touch.
+                            Our team of talented designers and event planners works closely with you to understand
+                            your vision and bring it to life in the most extraordinary way. We provide bespoke floral
+                            arrangements, custom styling, and attention to detail that ensures your event reflects your personality and style.</p>
+                        <button onclick="window.location.href='#about-us'">Contact Us</button>
+                    </div>
+                </div>
+                <div class="bottom-section">
+                    <div class="small-images">
+                        <img src="pics/ee1.jpg">
+                        <img src="pics/e3.webp">
+                    </div>
+                    <div class="big-image">
+                        <img src="pics/ee4.webp">
+                    </div>
+                </div>
+                <div class="bottom-section">
+                    <div class="small-images">
+                        <img src="pics/ee5.png">
+                        <img src="pics/e6.webp">
+                    </div>
+                    <div class="big-image">
+                        <img src="pics/e7.webp">
+                    </div>
+                </div>
+            </section>
+        </section>
+
+     <!-- Check Out Section -->
+     <section id="check-out" class="section">
+        <!-- Centered Title -->
+        <h2>Check Out</h2>
+
+        <div class="checkout-content">
+            <!-- Check Out Form -->
+            <div class="checkout-form">
+              <form id="checkoutForm">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" required>
+          
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" required>
+          
+                <label for="street">Street</label>
+                <input type="text" id="street" name="street" required>
+          
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" required>
+          
+                <label for="zipCode">Zip Code</label>
+                <input type="text" id="zipCode" name="zipCode" required>
+          
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+          
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <div class="submit-button">
+                    <button type="button" onclick="submitForm()">SUBMIT</button>
+                  </div>
+              </form>
+            </div>
+          
+            <!-- Map -->
+            <div class="map-container">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8495845.969794432!2d114.48076408251342!3d12.916926014016749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x324053215f87de63%3A0x784790ef7a29da57!2sPhilippines!5e0!3m2!1sen!2sus!4v1741520370850!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div id="popupModal" class="modal">
+            <div class="modal-content">
+            <h3>Submitted Details</h3>
+            <div id="popupMessage"></div>
+            <button onclick="closeModal()">&times;</button>
+            </div>
+        </div>
+
+        <!-- About Us Section -->
+        <section id="about-us" class="section">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Welcome to <strong>Florescence & Co.</strong>, where elegance and beauty come together in every bouquet. We are passionate about creating stunning floral arrangements that bring joy to your special moments. Whether it's a wedding, debut, or just because, our flowers are crafted with care and love.</p>
+                    <p>Our shop is dedicated to providing the freshest and most beautiful flowers, sourced from the finest growers around the world. With a team of talented florists, we ensure that every bouquet is a masterpiece.</p>
+                    <p>Follow us on social media to stay updated on our latest collections, promotions, and floral inspirations!</p>
+                </div>
+                <div class="social-media">
+                    <h3>Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/flowerstore.ph" target="_blank">
+                            <i class="fab fa-instagram"></i> @celebratewithflorescence
+                        </a>
+                        <a href="https://www.facebook.com/@celebratewithflorescence" target="_blank">
+                            <i class="fab fa-facebook"></i> @celebratewithflorescence
+                        </a>
+                        <a href="https://www.tiktok.com/@bloomsartisan?lang=en" target="_blank">
+                            <i class="fab fa-tiktok"></i> @celebratewithflorescence
+                        </a>
+                        <a href="mailto:florescenceco@gmail.com" target="_blank">
+                            <i class="fas fa-envelope"></i> florescenceco@gmail.com
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>Copyright © 2025 | Florescence & Co. | All Rights Reserved</p>
+        </div>
+
+        <!-- Popup Modal -->
+        <div id="popup" class="popup">
+            <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <p>Thanks for purchasing!✨</p>
+            </div>
+        </div>
+
+    <script>
+        // Toggle Sidebar
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            const mainContent = document.getElementById('mainContent');
+            sidebar.classList.toggle('open');
+            mainContent.classList.toggle('shifted');
+        }
+
+        // Buy Now
+        document.querySelectorAll('.buy-now').forEach(button => {
+            button.addEventListener('click', () => {
+                document.getElementById('popup').style.display = 'flex';
+            });
+        });
+
+        // Close popup
+        document.querySelector('.close-btn').addEventListener('click', () => {
+            document.getElementById('popup').style.display = 'none';
+        });
+
+        // Close popup when clicking outside the content
+        window.addEventListener('click', (e) => {
+            const popup = document.getElementById('popup');
+            if (e.target === popup) {
+                popup.style.display = 'none';
+            }
+        });
+        
+        // Form popup
+        function submitForm() {
+        const form = document.getElementById('checkoutForm');
+
+        if (!form.checkValidity()) {
+            form.reportValidity();
+            return;
+        }
+
+        const data = {
+            firstName: document.getElementById('firstName').value,
+            lastName: document.getElementById('lastName').value,
+            street: document.getElementById('street').value,
+            city: document.getElementById('city').value,
+            zipCode: document.getElementById('zipCode').value,
+            email: document.getElementById('email').value,
+            phone: document.getElementById('phone').value,
+        };
+
+        const popup = document.getElementById('popupModal');
+        const message = document.getElementById('popupMessage');
+
+        message.innerHTML = `
+            <p><strong>Name:</strong> ${data.firstName} ${data.lastName}</p>
+            <p><strong>Street:</strong> ${data.street}</p>
+            <p><strong>City:</strong> ${data.city}</p>
+            <p><strong>Zip Code:</strong> ${data.zipCode}</p>
+            <p><strong>Email:</strong> ${data.email}</p>
+            <p><strong>Phone:</strong> ${data.phone}</p>
+        `;
+
+        popup.style.display = "flex";
+        }
+
+        function closeModal() {
+        document.getElementById('popupModal').style.display = "none";
+        }
+
+    </script>
+
+</body>
+</html>
